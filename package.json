@@ -1,0 +1,22 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8099 &",
+    "dev-test": "set NODE_ENV=dev && node index.js",
+    "qa-test": "set NODE_ENV=dev && node index.js",
+    "prod-test": "set NODE_ENV=dev && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "selenium-webdriver": "^4.7.1"
+  }
+}
